@@ -1,0 +1,108 @@
+
+/* =========================
+   PAGE STYLING
+========================= */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff8e7;
+  font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+h1 {
+  color: #e67e22;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+
+/* =========================
+   POOKALAM
+========================= */
+
+.pookalam {
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Outer Layer */
+
+.outer {
+  width: 400px;
+  height: 400px;
+
+  background-color: #f9d423;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Middle Layer */
+
+.middle {
+  width: 300px;
+  height: 300px;
+
+  background-color: #ff9f1c;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Inner Layer */
+
+.inner {
+  width: 200px;
+  height: 200px;
+
+  background-color: #e63946;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Center */
+
+.center {
+  width: 80px;
+  height: 80px;
+
+  background-color: #fff;
+
+  border-radius: 50%;
+
+  border: 5px solid #f1c40f;
+}
